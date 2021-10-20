@@ -1,5 +1,9 @@
 import { fetchApi } from "./lib/fetchApi.js";
 import { filteringAnArray } from "./lib/filteringArray.js";
+// import {
+// 	saveToLocalStorage,
+// 	getStorageItem,
+// } from './libs/localStorageHelper.js';
 
 let data = await fetchApi("http://localhost:1337/articles");
 console.log(data);
