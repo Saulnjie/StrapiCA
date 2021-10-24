@@ -11,3 +11,12 @@ p {
     font-weight: 200;
 
 }
+
+.nav {
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.navbar {
+    justify-content: space-between;
+}
